@@ -12,7 +12,6 @@
 		1C5784591B15BE2C00172D8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5784581B15BE2C00172D8A /* Images.xcassets */; };
 		1C5784681B15BE2C00172D8A /* Swift_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5784671B15BE2C00172D8A /* Swift_ExampleTests.swift */; };
 		1C5784721B15BE8900172D8A /* SWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5784711B15BE8900172D8A /* SWTableViewController.swift */; };
-		1C82C2D51C930C2B00F9520C /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C82C2D41C930C2B00F9520C /* CoreActionSheetPicker.framework */; };
 		4E03C75B24597E7C00F9300B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E03C75A24597E7C00F9300B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		1C5784661B15BE2C00172D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C5784671B15BE2C00172D8A /* Swift_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ExampleTests.swift; sourceTree = "<group>"; };
 		1C5784711B15BE8900172D8A /* SWTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWTableViewController.swift; path = ViewControllers/SWTableViewController.swift; sourceTree = "<group>"; };
-		1C82C2D41C930C2B00F9520C /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreActionSheetPicker.framework; path = "../../CoreActionSheetPicker/build/Debug-iphoneos/CoreActionSheetPicker.framework"; sourceTree = "<group>"; };
 		4E03C75A24597E7C00F9300B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C82C2D51C930C2B00F9520C /* CoreActionSheetPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +72,6 @@
 		1C5784431B15BE2C00172D8A = {
 			isa = PBXGroup;
 			children = (
-				1C82C2D41C930C2B00F9520C /* CoreActionSheetPicker.framework */,
 				1C57844E1B15BE2C00172D8A /* Swift-Example */,
 				1C5784641B15BE2C00172D8A /* Swift-ExampleTests */,
 				1C57844D1B15BE2C00172D8A /* Products */,
@@ -180,7 +176,7 @@
 				TargetAttributes = {
 					1C57844B1B15BE2C00172D8A = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 5UH69GW6GE;
+						DevelopmentTeam = LCT9TTNDNR;
 						LastSwiftMigration = 1120;
 					};
 					1C5784601B15BE2C00172D8A = {
@@ -385,10 +381,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCT9TTNDNR;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Swift-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SW.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.passio.SW.Swift-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -398,10 +395,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCT9TTNDNR;
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Swift-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SW.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.passio.SW.Swift-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
